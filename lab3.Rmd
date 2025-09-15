@@ -95,7 +95,10 @@ Create a new code chunk below using the r language engine that runs some R code
 but it should have an output).
 Ensure that you can render/knit the document after you add that chunk.
 
-YOUR ANSWER GOES HERE
+```{r}
+print("here is some r code!")
+```
+
 
 #### Question 3
 rubric={mechanics:1}

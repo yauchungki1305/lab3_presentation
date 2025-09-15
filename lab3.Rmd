@@ -1,5 +1,7 @@
 ---
 title: "Lab 3 - Introduction to RStudio and R Markdown. Presentations"
+author: "Claire Saunders, Harry Yau, Justin Mak, Sasha Sah"
+date: "September 20, 2025"
 output:
   html_document:
     toc: true
@@ -109,7 +111,12 @@ Try using the pop-up-like menu to navigate between the named code chunks
 Don't forget to knit/render the document
 after you make this change to ensure everything is still working.
 
-YOUR ANSWER GOES HERE
+```{r a-data-frame}
+df <- data.frame(x = c(1, 2, 3), 
+                 y = c(4, 5, 6)
+                 )
+df
+```
 
 #### Question 4
 rubric={mechanics:1,reasoning:1}
@@ -117,7 +124,11 @@ rubric={mechanics:1,reasoning:1}
 Create a new code chunk that uses a code chunk option.
 Write out in your own words what the code chunk option is doing.
 
-YOUR ANSWER GOES HERE
+``` {r question_4, error = TRUE}
+prin("hello world")
+
+# Prints hello world. But has an error. Chunk option error = TRUE, so the file will continue to knit
+```
 
 ####  Multiple code chunk options
 
@@ -183,7 +194,10 @@ Navigate to the YAML header at the very top of this document
 and edit it so that you include an `author` (yourself) and a `date` (lab due date).
 Include what you added below here as well as a fenced Markdown code block.
 
-YOUR ANSWER GOES HERE
+```{r}
+# author: "Claire Saunders, Harry Yau, Justin Mak, Sasha Sah"
+# date: "September 20, 2025"
+```
 
 ### Creating R Markdown documents
 
@@ -304,5 +318,5 @@ Make sure you have run all cells in your notebook in order before running the ce
 
 ```{r}
 # Save your notebook first, then run this cell to export your submission.
-ottr::export("lab3.Rmd", pdf = TRUE)
+# ottr::export("lab3.Rmd", pdf = TRUE)
 ```

@@ -121,7 +121,11 @@ rubric={mechanics:1,reasoning:1}
 Create a new code chunk that uses a code chunk option.
 Write out in your own words what the code chunk option is doing.
 
-YOUR ANSWER GOES HERE
+``` {r question_4, error = TRUE}
+prin("hello world")
+
+# Prints hello world. But has an error. Chunk option error = TRUE, so the file will continue to knit
+```
 
 ####  Multiple code chunk options
 
@@ -311,5 +315,5 @@ Make sure you have run all cells in your notebook in order before running the ce
 
 ```{r}
 # Save your notebook first, then run this cell to export your submission.
-ottr::export("lab3.Rmd", pdf = TRUE)
+# ottr::export("lab3.Rmd", pdf = TRUE)
 ```

@@ -249,7 +249,11 @@ knit/render the document. Note the different output. Add and commit that
 rendered both the `.html` and `.pdf` files to the GitHub repository for
 this lab and paste the two links below this question.
 
-YOUR ANSWER GOES HERE
+Link to HTML output in GitHub Repo:
+https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group08/blob/master/question_7.html
+
+Link to pdf output in GitHub Repo:
+https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group08/blob/master/question_7.pdf
 
 #### Question 8
 

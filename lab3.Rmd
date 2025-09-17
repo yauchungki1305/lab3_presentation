@@ -284,7 +284,9 @@ rubric={mechanics:1,reasoning:1}
     GitHub.ubc.ca in your homework repo? What do you see? How is it
     rendered?
 
-YOUR ANSWER GOES HERE
+The file preview in github as the visual markdown presentation of the file.The 
+headers and titles are rendered in their visual format, whereas the rmd and
+html files show their coding, source in the preview on github. 
 
 #### Question 10
 

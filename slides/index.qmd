@@ -1,7 +1,27 @@
 ---
-title: "slides"
+title: "Lab 3 Presentation for Group 8"
+format:
+  revealjs: 
+    embed-resources: true
+    theme: dracula
 ---
+# Members of the team
 
-This is a Quarto website.
+# Member 
+- Claire Saunders
+- Harry Yau
+- Justin Mak
+- Sasha Sah
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# first code chunk
+```{r, echo = TRUE}
+for (i in 1:10){
+    print(i)
+}
+```
+
+# second code chunk
+```{r, echo = TRUE}
+group_name <- "Group 8"
+print(group_name)
+```

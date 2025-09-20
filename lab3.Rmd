@@ -322,8 +322,7 @@ tools (e.g., R Markdown and Jupyter) and non-reproducible tools (Word,
 Powerpoint, Keynote, etc) for presentations and reports. Include
 advantages and disadvantages for each.
 
-YOUR ANSWER GOES HERE
-
+Reproducible tools like R Markdown and Jupyter use code and data in a single document. This could be useful if multiple people are working or viewing the document. Anyone can open the presentation or report in R Markdown or Jupyter and render or knit the document, and the final result should be the same for each user. Each time someone runs the document, the results are recalculated and reproduced, making it easy to trust the data and work. Non-reproducible tools like Word, Powerpoint and Keynote are good for user friendliness. When the user edits the document, they are directly editing what the final version will look like. They are highly flexible, but lack the integration with data and code, making the results un-reproducible and hard to verify. 
 
 ## Free Point
 

@@ -64,7 +64,7 @@ instructions:
     this cell (it should look something like this
     <https://github.ubc.ca/MDS-2022-23/DSCI_521_labX_yourcwl>).
 
-YOUR LAB GITHUB REPO LINK GOES HERE
+https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group08
 
 ## Editing R Markdown documents
 
@@ -86,10 +86,10 @@ corner of the chunk.
 rubric={correctness:1}
 
 As you work on this lab you will be rendering the document(s). Please
-make sure all source and redered documents are in the repository.
+make sure all source and rendered documents are in the repository.
 
 I've talked in class about making sure you ignore rendered output, but
-for this assignment we'll treat it as an exception becuause we want to
+for this assignment we'll treat it as an exception because we want to
 confirm that the documents are properly formatted and rendering.
 
 Nothing to post. We will be looking at your final repository contents.
@@ -311,7 +311,7 @@ rubric={mechanics:6}
     in the approriate directory. You can use any of the folder/branches
     to publish the slides, as long as the URL works.
 
-YOUR ANSWER GOES HERE
+https://yauchungki1305.github.io/lab3_presentation/
 
 #### (Challenging) Question 11
 
@@ -323,7 +323,7 @@ Powerpoint, Keynote, etc) for presentations and reports. Include
 advantages and disadvantages for each.
 
 YOUR ANSWER GOES HERE
-https://yauchungki1305.github.io/lab3_presentation/
+
 
 ## Free Point
 
